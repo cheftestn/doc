@@ -56,8 +56,8 @@ EXPOSE 80
 ADD start.sh /start.sh
 RUN chmod 0755 /start.sh
 CMD ["bash", "start.sh"]
-FROM debian
-MAINTAINER Love Nyberg "love.nyberg@lovemusic.se"
+FROM ubuntu
+MAINTAINER Love Nyberg "cheftestn@gmail.com"
 
 # Update the package repository
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
