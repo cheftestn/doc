@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER Love Nyberg "cheftestn@gmail.com"
+MAINTAINER veeru "cheftestn@gmail.com"
 
 # Update the package repository
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && \
